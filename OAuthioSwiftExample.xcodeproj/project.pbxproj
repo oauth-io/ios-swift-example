@@ -40,7 +40,7 @@
 		7178D5181A03A542009DFE3C /* OAuthioSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthioSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7178D51D1A03A542009DFE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7178D51E1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthioSwiftExampleTests.swift; sourceTree = "<group>"; };
-		7178D5281A03A5B5009DFE3C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7178D5281A03A5B5009DFE3C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7178D52A1A03A601009DFE3C /* OAuthioSwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OAuthioSwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		7178D56F1A03F2F2009DFE3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		904C9AAF0A144729A9E44217 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
