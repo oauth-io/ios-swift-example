@@ -1,0 +1,10 @@
+PODS:
+  - OAuth.io (1.2.1)
+
+DEPENDENCIES:
+  - OAuth.io
+
+SPEC CHECKSUMS:
+  OAuth.io: d0e3e55f5962970e153a76cd9110cc9087892eeb
+
+COCOAPODS: 0.33.1
