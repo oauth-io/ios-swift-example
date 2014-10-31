@@ -13,6 +13,7 @@
 		7178D5101A03A542009DFE3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7178D50F1A03A542009DFE3C /* Images.xcassets */; };
 		7178D5131A03A542009DFE3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7178D5111A03A542009DFE3C /* LaunchScreen.xib */; };
 		7178D51F1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178D51E1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift */; };
+		7178D5291A03A5B5009DFE3C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7178D5281A03A5B5009DFE3C /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		7178D5181A03A542009DFE3C /* OAuthioSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthioSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7178D51D1A03A542009DFE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7178D51E1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthioSwiftExampleTests.swift; sourceTree = "<group>"; };
+		7178D5281A03A5B5009DFE3C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7178D52A1A03A601009DFE3C /* OAuthioSwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OAuthioSwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +62,11 @@
 		7178D4FA1A03A542009DFE3C = {
 			isa = PBXGroup;
 			children = (
+				7178D5281A03A5B5009DFE3C /* Podfile */,
 				7178D5051A03A542009DFE3C /* OAuthioSwiftExample */,
 				7178D51B1A03A542009DFE3C /* OAuthioSwiftExampleTests */,
 				7178D5041A03A542009DFE3C /* Products */,
+				7178D52A1A03A601009DFE3C /* OAuthioSwiftExample-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +199,7 @@
 			files = (
 				7178D50E1A03A542009DFE3C /* Main.storyboard in Resources */,
 				7178D5131A03A542009DFE3C /* LaunchScreen.xib in Resources */,
+				7178D5291A03A5B5009DFE3C /* Podfile in Resources */,
 				7178D5101A03A542009DFE3C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OAuthioSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OAuthioSwiftExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OAuthioSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OAuthioSwiftExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
