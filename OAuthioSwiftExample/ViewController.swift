@@ -38,7 +38,7 @@ class ViewController: UIViewController, OAuthIODelegate {
             self.status_label.text = "Logging in with Twitter"
             var options = NSMutableDictionary()
             options.setValue("true", forKey: "cache")
-            self.oauth_modal?.showWithProvider("twitter", options: options)
+            self.oauth_modal?.showWithProvider("twitter", options: options as [NSObject : AnyObject])
         }
         if sender == self.request_button {
             var cache_available = self.oauth_modal?.cacheAvailableForProvider("twitter")
