@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1CBAF21FA079BC31D9870E /* libPods-OAuthioSwiftExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40674AFD905F01991CA25233 /* libPods-OAuthioSwiftExample.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		7178D5091A03A542009DFE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178D5081A03A542009DFE3C /* AppDelegate.swift */; };
 		7178D50B1A03A542009DFE3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178D50A1A03A542009DFE3C /* ViewController.swift */; };
 		7178D50E1A03A542009DFE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7178D50C1A03A542009DFE3C /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		7178D51F1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178D51E1A03A542009DFE3C /* OAuthioSwiftExampleTests.swift */; };
 		7178D5291A03A5B5009DFE3C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7178D5281A03A5B5009DFE3C /* Podfile */; };
 		7178D5701A03F2F2009DFE3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7178D56F1A03F2F2009DFE3C /* README.md */; };
-		79F5CCF3B8EE4F109996A62A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904C9AAF0A144729A9E44217 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CDEA7F7D0B848E89E2E1119 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		267358D6CB1B39A4DD8EDD6B /* Pods-OAuthioSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuthioSwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OAuthioSwiftExample/Pods-OAuthioSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		40674AFD905F01991CA25233 /* libPods-OAuthioSwiftExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OAuthioSwiftExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7178D5031A03A542009DFE3C /* OAuthioSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuthioSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7178D5071A03A542009DFE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7178D5081A03A542009DFE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,7 @@
 		7178D5281A03A5B5009DFE3C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7178D52A1A03A601009DFE3C /* OAuthioSwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OAuthioSwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		7178D56F1A03F2F2009DFE3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		904C9AAF0A144729A9E44217 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9797112BFA33057C7179CFE7 /* Pods-OAuthioSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuthioSwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAuthioSwiftExample/Pods-OAuthioSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F5CCF3B8EE4F109996A62A /* libPods.a in Frameworks */,
+				1E1CBAF21FA079BC31D9870E /* libPods-OAuthioSwiftExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		597A297FD5A87084DDDD4EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40674AFD905F01991CA25233 /* libPods-OAuthioSwiftExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F74D84F7931A1EF74AA99E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				267358D6CB1B39A4DD8EDD6B /* Pods-OAuthioSwiftExample.debug.xcconfig */,
+				9797112BFA33057C7179CFE7 /* Pods-OAuthioSwiftExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7178D4FA1A03A542009DFE3C = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +92,8 @@
 				7178D51B1A03A542009DFE3C /* OAuthioSwiftExampleTests */,
 				7178D5041A03A542009DFE3C /* Products */,
 				7178D52A1A03A601009DFE3C /* OAuthioSwiftExample-Bridging-Header.h */,
-				0CDEA7F7D0B848E89E2E1119 /* Pods.xcconfig */,
-				EAC6162BB5EF4795962472A4 /* Frameworks */,
+				5F74D84F7931A1EF74AA99E4 /* Pods */,
+				597A297FD5A87084DDDD4EA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,14 +144,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAC6162BB5EF4795962472A4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				904C9AAF0A144729A9E44217 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,11 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7178D5221A03A542009DFE3C /* Build configuration list for PBXNativeTarget "OAuthioSwiftExample" */;
 			buildPhases = (
-				F85EFADC0ABE4C309DF85D96 /* Check Pods Manifest.lock */,
+				CC50E9C2B31C9F83456CF60A /* [CP] Check Pods Manifest.lock */,
 				7178D4FF1A03A542009DFE3C /* Sources */,
 				7178D5001A03A542009DFE3C /* Frameworks */,
 				7178D5011A03A542009DFE3C /* Resources */,
-				28E26082DDF546D7BFD43C32 /* Copy Pods Resources */,
+				0243B3DE45BACE1CD22C579A /* [CP] Embed Pods Frameworks */,
+				FA77DB528DB482E2B647E4A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,14 +191,16 @@
 		7178D4FB1A03A542009DFE3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = OAuth.io;
 				TargetAttributes = {
 					7178D5021A03A542009DFE3C = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 					7178D5171A03A542009DFE3C = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 7178D5021A03A542009DFE3C;
 					};
 				};
@@ -233,34 +246,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28E26082DDF546D7BFD43C32 /* Copy Pods Resources */ = {
+		0243B3DE45BACE1CD22C579A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OAuthioSwiftExample/Pods-OAuthioSwiftExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F85EFADC0ABE4C309DF85D96 /* Check Pods Manifest.lock */ = {
+		CC50E9C2B31C9F83456CF60A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA77DB528DB482E2B647E4A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OAuthioSwiftExample/Pods-OAuthioSwiftExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -327,15 +355,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -369,8 +401,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -378,6 +412,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -387,34 +422,39 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		7178D5231A03A542009DFE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CDEA7F7D0B848E89E2E1119 /* Pods.xcconfig */;
+			baseConfigurationReference = 267358D6CB1B39A4DD8EDD6B /* Pods-OAuthioSwiftExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OAuthioSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oauthio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "OAuthioSwiftExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7178D5241A03A542009DFE3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CDEA7F7D0B848E89E2E1119 /* Pods.xcconfig */;
+			baseConfigurationReference = 9797112BFA33057C7179CFE7 /* Pods-OAuthioSwiftExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OAuthioSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oauthio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "OAuthioSwiftExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -432,7 +472,9 @@
 				);
 				INFOPLIST_FILE = OAuthioSwiftExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oauthio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthioSwiftExample.app/OAuthioSwiftExample";
 			};
 			name = Debug;
@@ -447,7 +489,9 @@
 				);
 				INFOPLIST_FILE = OAuthioSwiftExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oauthio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthioSwiftExample.app/OAuthioSwiftExample";
 			};
 			name = Release;

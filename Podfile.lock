@@ -1,10 +1,12 @@
 PODS:
-  - OAuth.io (1.2.1)
+  - OAuth.io (1.2.2)
 
 DEPENDENCIES:
-  - OAuth.io
+  - OAuth.io (= 1.2.2)
 
 SPEC CHECKSUMS:
-  OAuth.io: d0e3e55f5962970e153a76cd9110cc9087892eeb
+  OAuth.io: 7fc7f3770424f8483422aa8edadd72bfe25e4544
 
-COCOAPODS: 0.33.1
+PODFILE CHECKSUM: 5b9f735bef64dbf995afe27d41539243dcb60934
+
+COCOAPODS: 1.1.0.rc.2

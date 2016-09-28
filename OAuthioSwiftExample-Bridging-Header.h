@@ -3,3 +3,7 @@
 //
 
 #import <OAuthiOS/OAuthiOS.h>
+#import <OAuthiOS/OAuthIO.h>
+#import <OAuthiOS/OAuthIOData.h>
+#import <OAuthiOS/OAuthIOModal.h>
+#import <OAuthiOS/OAuthIORequest.h>
